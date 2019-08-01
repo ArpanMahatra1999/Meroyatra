@@ -14,8 +14,12 @@ Tools used:
 4. Numpy 1.14.5
 5. Scipy 1.1.0
 
+Languages used:
+1. Python
+2. Html, Css and Js
+
 Steps to Install:
-1. Open project in visual studio
+1. Open project in visual studio.
 2. Create virtual environment with above features of django, pandas, numpy and scipy.
 3. Use command prompt to activate virtual environment.
 4. Use command prompt to runserver using manage.py.
