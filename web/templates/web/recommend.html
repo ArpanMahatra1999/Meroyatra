@@ -1,0 +1,39 @@
+{% extends 'web/base.html'%}
+{% block title %}Recommendations{% endblock %}
+{% block body %}
+<br />
+<br />
+<br />
+<br />
+<div class="container-fluid">
+	<h2 style="text-align:center">Recommendations for You </h2>
+</div>
+
+<section class="ftco-section">
+    <div class="container">
+    <div class="container-fluid">
+            <div class="row">
+                {% if blog_list %}
+                {% for blog in blog_list %}
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="project">
+                        <div class="img">
+                            <img src="{{ blog.blog_image.url}}" class="img-fluid" alt="Colorlib Template" style="height:200px; width:250px">
+                        </div>
+                        <div class="text">
+                            <span>{{blog.blog_type}}</span>
+                            <h3><a href="project.html">{{blog.title}}</a></h3>
+                            <h4 class="price"><a href="{% url 'detail' blog.id %}">Read and Rate</a></h4>
+                        </div>
+                        <a href="images/destination-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                            <span class="icon-expand"></span>
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+        </div>
+    </section>
+        {% endblock %}
