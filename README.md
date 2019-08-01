@@ -20,5 +20,5 @@ Steps to Install:
 3. Use command prompt to activate virtual environment.
 4. Use command prompt to runserver using manage.py.
 
-Admin name: pusendra
-Password: pusendra
+-Admin name: pusendra
+-Password: pusendra
