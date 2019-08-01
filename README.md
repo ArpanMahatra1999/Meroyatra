@@ -2,17 +2,17 @@
 Django travel website with recommendation system.
 
 Project Members:
-Pusendra Chaudhary
-Akash Giri
-Arpan Mahatra
-Pranish Shrestha
+1. Pusendra Chaudhary
+2. Akash Giri
+3. Arpan Mahatra
+4. Pranish Shrestha
 
 Tools used:
-Visual Studio Code 1.34.0
-Django 2.0.8
-Pandas 0.23.3
-Numpy 1.14.5
-Scipy 1.1.0
+1. Visual Studio Code 1.34.0
+2. Django 2.0.8
+3. Pandas 0.23.3
+4. Numpy 1.14.5
+5. Scipy 1.1.0
 
 Steps to Install:
 1. Open project in visual studio
