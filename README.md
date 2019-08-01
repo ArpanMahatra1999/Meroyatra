@@ -19,3 +19,6 @@ Steps to Install:
 2. Create virtual environment with above features of django, pandas, numpy and scipy.
 3. Use command prompt to activate virtual environment.
 4. Use command prompt to runserver using manage.py.
+
+Admin name: pusendra
+Password: pusendra
